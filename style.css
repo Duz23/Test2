@@ -1,0 +1,686 @@
+body,button,input{
+    font-family: 'Wix Madefor Text', sans-serif;
+}
+*{ 
+    margin: 0px;
+    padding: 0px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding:80px;
+    position: relative;
+}
+.search i {
+    font-size: 20px;
+}
+.search {
+    color: gray;
+}
+.search i{
+    color: gray;
+
+}
+.search input {
+    padding: 0 0 0 30px ;
+    border: none !important;
+    font-size: 20px;
+    outline: none !important;
+}
+.img {
+    position: absolute;
+    color: gray;
+    left: 1840px;
+}
+.title {
+position: absolute;
+left: 900px;
+top: 60px;
+}
+.title h2 {
+    color: rgb(88, 88, 88);
+    border : 3px solid;
+    padding: 10px;
+}
+.icons i {
+    font-size: 20px;
+    color: gray;
+    padding: 0 0 0 20px;
+}
+hr {
+    color: gray;
+    opacity: 40%;
+}
+.nav-center {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    padding: 0 0 0 600px;
+
+}
+.nav-center a {
+    
+    text-decoration: none !important;
+    font-size: 18px;
+    height: 0px;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    color: rgb(56, 55, 55);
+    margin-top: 30px;
+}
+.nav-center i {
+    padding: 0 0 0 10px;
+}
+.nav-center .line1 a{
+    color: rgb(181, 134, 190);
+}
+.boot {
+    position: relative;
+}
+.boot .p1 {
+ 
+    width: 470px;
+   font-weight: bold;
+    position: absolute;
+    top: 240px;
+    left: 1100px;
+    font-size: 70px;
+}
+.boot .p2 {
+ 
+    width:700px;
+    position: absolute;
+    top: 420px;
+    left: 1100px;
+    font-size: 30px;
+    line-height: 2;
+}
+.boot button {
+width:200px;
+position: absolute;
+top: 620px;
+left: 1100px;
+font-size: 16px;
+padding: 20px;
+background-color: blueviolet;
+color: white;
+font-weight: bold;
+letter-spacing: 3px; 
+border-radius: 8px;
+
+}
+.boot button:hover  {
+    transform: translate(0px, -6px );
+    transition: all 0.6s ease;
+
+    box-shadow: 0 0 20px rgba(0,0,0,0.7);
+}
+
+.center {
+    display: flex;
+    justify-content: space-around;
+}
+.center1 {
+    display: flex;
+    
+}
+.center1 i {
+font-size: 40px;
+color: rgb(116, 35, 192);
+}
+.center1 .p1 {
+    font-weight: bold;
+    padding: 5px 0 0 20px ;
+    font-size: 18px;
+
+}
+.center1 .p2 {
+    width: 300px;
+    padding: 10px 0 0 20px ;
+    line-height: 1.5;
+
+}
+.center2 {
+    display: flex;
+    padding: 0 0 0 30px ;
+}
+.center2 i {
+font-size: 40px;
+color: rgb(116, 35, 192);
+}
+.center2 .p1 {
+    font-weight: bold;
+    padding: 5px 0 0 20px ;
+    font-size: 18px;
+
+}
+.center2 .p2 {
+    width: 300px;
+    padding: 10px 0 0 20px ;
+    line-height: 1.5;
+
+}
+
+
+.center3 {
+    display: flex;
+    padding: 0 0 0 30px ;
+}
+.center3 i {
+font-size: 43px;
+color: rgb(116, 35, 192);
+
+}
+.center3 .p1 {
+    font-weight: bold;
+    padding: 5px 0 0 20px ;
+    font-size: 18px;
+}
+.center3 .p2 {
+    width: 300px;
+    padding: 10px 0 0 20px ;
+    line-height: 1.5;
+
+}
+.photos {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    padding: 0 110px 0 110px ;
+    
+}
+
+
+.photos .women {
+position: relative;
+
+}
+.photos .children {
+    position: relative;
+}
+.photos .men {
+    position: relative;
+}
+.photos .p1 {
+    position: absolute;
+    top: 590px;
+    font-size: 50px;
+    left: 20px;
+    width: 300px;
+    color: white;
+
+}
+.photos .p11 {
+    position: absolute;
+    top: 550px;
+    font-size: 23px;
+    left: 20px;
+    color: white;
+}
+.photos .p2 {
+    position: absolute;
+    top: 590px;
+    font-size: 50px;
+    left: 20px;
+    width: 300px;
+    color: white;
+
+}
+.photos .p22 {
+    position: absolute;
+    top: 550px;
+    font-size: 23px;
+    left: 20px;
+    color: white;
+}
+.photos .p3 {
+    position: absolute;
+    top: 590px;
+    font-size: 50px;
+    left: 20px;
+    width: 300px;
+    color: white;
+
+}
+.photos .p33 {
+    position: absolute;
+    top: 550px;
+    font-size: 23px;
+    left: 20px;
+    color: white;
+}
+
+
+.women {
+    transition: 1s;
+}
+.women:hover {
+    transform: scale(1.1);
+    z-index: 3;
+     box-shadow: 0 0 20px rgba(0,0,0,0.7);
+}
+.children {
+    transition: 1s;
+}
+.children:hover {
+    transform: scale(1.1);
+    z-index: 3;
+    box-shadow: 0 0 20px rgba(0,0,0,0.7);
+}
+.men {
+    transition: 1s;
+}
+.men:hover {
+    transform: scale(1.1);
+    z-index: 3;
+    box-shadow: 0 0 20px rgba(0,0,0,0.7);
+}
+.featured {
+    width: 100%;
+    background-color: rgb(240, 239, 239);
+    height: 960px;
+    position: relative;
+}
+.border {
+    position: absolute;
+    width:70px;
+    border-top: 4px solid rgb(174, 0, 255) ;
+border-radius: 800px;
+    top: 100px;
+    left: 900px;
+}
+.products {
+    position: absolute;
+    font-size: 35px;
+    font-weight: bold;
+    top: 140px;
+    left: 780px;
+}
+.pro1 {
+    position: absolute;
+    left: 200px;
+    top: 300px;
+    width: 479px;
+    height: 550px;
+    background-color: white;
+    box-shadow: 1px 1px 10px 10px rgba(230, 230, 230, 0.7) ;
+
+}
+.pro1 .p1 {
+    position: absolute;
+    left: 180px;
+    top: 400px;
+    font-size: 27px;
+color: blueviolet;
+font-weight: bold;
+}
+.pro1 .p2 {
+    position: absolute;
+    left: 145px;
+    top: 440px;
+    font-size: 20px;
+color: rgb(158, 157, 157);
+}
+.pro1 .p3 {
+    position: absolute;
+    left: 220px;
+    top: 475px;
+    font-size: 22px;
+color: blueviolet;
+font-weight: bold;
+}
+.pro2 {
+    position: absolute;
+    left: 750px;
+    top: 300px;
+    width: 479px;
+    height: 550px;
+    background-color: white;
+    box-shadow: 1px 1px 10px 10px rgba(230, 230, 230, 0.7) ;
+
+}
+.pro2 .p1 {
+    position: absolute;
+    left: 190px;
+    top: 400px;
+    font-size: 27px;
+color: blueviolet;
+font-weight: bold;
+}
+.pro2 .p2 {
+    position: absolute;
+    left: 150px;
+    top: 440px;
+    font-size: 20px;
+color: rgb(158, 157, 157);
+}
+.pro2 .p3 {
+    position: absolute;
+    left: 220px;
+    top: 475px;
+    font-size: 22px;
+color: blueviolet;
+font-weight: bold;
+}
+.pro3 {
+    position: absolute;
+    left:1298px;
+    top: 300px;
+    width: 479px;
+    height: 550px;
+    background-color: white;
+    box-shadow: 1px 1px 10px 10px rgba(230, 230, 230, 0.7) ;
+
+}
+.pro3 .p1 {
+    position: absolute;
+    left: 190px;
+    top: 400px;
+    font-size: 27px;
+color: blueviolet;
+font-weight: bold;
+}
+.pro3 .p2 {
+    position: absolute;
+    left: 150px;
+    top: 440px;
+    font-size: 20px;
+color: rgb(158, 157, 157);
+}
+.pro3 .p3 {
+    position: absolute;
+    left: 220px;
+    top: 475px;
+    font-size: 22px;
+color: blueviolet;
+font-weight: bold;
+}
+.sale {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 960px;
+    position: relative;
+}
+.salep {
+        width: 200px;
+        position: absolute;
+        font-size: 36px;
+        font-weight: bold;
+        left: 90px;
+}
+.sale img {
+    position: absolute;
+    top: 270px;
+    left: 100px;
+}
+.sale h1 {
+    position: absolute;
+    color: blueviolet;
+    font-size: 34px;
+    left: 1300px;
+    top: 400px;
+}
+.sale .p1 {
+    position: absolute;
+    left: 1320px;
+    top: 460px;
+    font-size: 18px;
+    color: rgb(179, 179, 179);
+}
+.sale span {
+    color: blueviolet;
+font-weight: bold;
+    
+}
+.sale .p2 {
+    position: absolute;
+    width: 600px;
+    left: 1220px;
+    top: 520px;
+    font-size: 20px;
+    color: rgb(158, 157, 157);
+}
+.sale .p3 {
+    position: absolute;
+    width: 700px;
+    left: 1165px;
+    top: 560px;
+    font-size: 20px;
+    color: rgb(158, 157, 157);
+}
+.sale .p4 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 300px;
+    left: 1370px;
+    top: 600px;
+    font-size: 20px;
+    color: rgb(158, 157, 157);
+}
+.sale button {
+    width:200px;
+    position: absolute;
+    top: 660px;
+    left: 1370px;
+    font-size: 16px;
+    padding: 20px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 3px; 
+    border-radius: 8px;
+    
+    }
+    .sale button:hover  {
+        transform: translate(0px, -6px );
+        transition: all 0.6s ease;
+    
+        box-shadow: 0 0 20px rgba(0,0,0,0.7);
+    }
+    footer {width: 900;
+        height: 630px;
+        position: relative;
+    }
+.fo-title {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 200px 30px 110px;
+}
+.promo {
+    position: absolute;
+left:1050px;
+}
+.info {
+    position: absolute;
+    left:1430px;
+}
+.fo-ul {
+    display: flex;
+    position: absolute;
+    color: gray;
+    font-size: 20px;
+left: 110px;
+}
+.fo-ul li {
+    list-style-type: none !important;
+    padding: 0 0px 30px;
+}
+.fo-ul ul li a {
+    text-decoration: none;
+    color: gray;
+}
+.fo-ul2 {
+    display: flex;
+    position: absolute;
+    color: gray;
+    font-size: 20px;
+left: 110px;
+}
+.fo-ul2 ul li a {
+    text-decoration: none;
+    color: gray;
+}
+.fo-ul2 li {
+    list-style-type: none !important;
+    padding: 0 300px 30px;
+}
+.fo-ul3 {
+    list-style-type: none !important;
+    display: flex;
+    position: absolute;
+    color: gray;
+    font-size: 20px;
+left: 110px;
+}
+.fo-ul3 ul li {
+    list-style-type: none !important;
+    padding: 0 650px 30px;
+}
+.fo-ul3 ul li a {
+    text-decoration: none;
+    color: gray;
+}
+.promoimg {
+    width: 300px;
+    position: absolute;
+    left: 1050px;
+}
+.find .p1 {
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+top: 220px;
+color: blueviolet;
+left: 1050px;
+}
+.find .p2 {
+    font-size: 20px;
+    position: absolute;
+top: 250px;
+color: gray;
+left: 1050px;
+}
+
+.location{
+    position: absolute;
+    color: blueviolet;
+    left: 1423px;
+    font-size:22px ;
+    top: 65px;
+
+}
+.location2{
+    position: absolute;
+    color: blueviolet;
+    left: 1430px;
+    font-size:22px ;
+    top: 145px;
+}
+.location3{
+    position: absolute;
+    color: blueviolet;
+    left: 1430px;
+    font-size:22px ;
+    top: 200px;
+}
+.icon .p1 {
+    width: 250px;
+    position: absolute;
+    left: 1460px;
+    top: 63px;
+    font-weight: bold;
+    color: gray;
+    font-size: 18px;
+}
+.icon .p2 {
+    font-size: 18px;
+    width: 250px;
+    position: absolute;
+    left: 1460px;
+    top: 150px;
+    font-weight: bold;
+    color: gray;
+}
+.icon .p3 {
+    font-size: 18px;
+    width: 250px;
+    position: absolute;
+    left: 1460px;
+    top: 205px;
+    font-weight: bold;
+    color: gray;
+}
+.icon .p4 {
+    font-size: 30px;
+    width: 250px;
+    position: absolute;
+    left: 1420px;
+    top: 305px;
+}
+.sub input {
+    width: 400px;
+    position: absolute;
+    height: 10px;
+    left: 1420px;
+    top: 355px;
+    padding: 30px;
+    font-size: 20px;
+
+}
+
+.sub button {
+    width:130px;
+    position: absolute;
+    top: 358px;
+    left: 1687px;
+    font-size: 16px;
+    padding: 20px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 3px; 
+
+    height: 58px;
+    
+    }
+    .sub button:hover  {
+        transform: translate(0px, -6px );
+        transition: all 0.6s ease;
+    
+        box-shadow: 0 0 20px rgba(0,0,0,0.7);
+    }
+ .end {
+        position: absolute;
+        top:600px ;
+        left: 600px;
+        font-size: 20px;
+        color: gray;
+    }
+    .end span{
+        color: blueviolet;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

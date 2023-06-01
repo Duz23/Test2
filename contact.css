@@ -1,0 +1,353 @@
+body,button,input{
+    font-family: 'Wix Madefor Text', sans-serif;
+}
+*{ 
+    margin: 0px;
+    padding: 0px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding:80px;
+    position: relative;
+}
+.search i {
+    font-size: 20px;
+}
+.search {
+    color: gray;
+}
+.search i{
+    color: gray;
+
+}
+.search input {
+    padding: 0 0 0 30px ;
+    border: none !important;
+    font-size: 20px;
+    outline: none !important;
+}
+.img {
+    position: absolute;
+    color: gray;
+    left: 1846px;
+}
+.title {
+    position: absolute;
+    left: 900px;
+    top: 60px;
+    }
+    .title h2 {
+        color: rgb(88, 88, 88);
+        border : 3px solid;
+        padding: 10px;
+    }
+    .icons i {
+        font-size: 20px;
+        color: gray;
+        padding: 0 0 0 20px;
+    }
+    hr {
+        color: gray;
+        opacity: 40%;
+    }
+    .nav-center {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        padding: 0 0 0 600px;
+    
+    }
+    .nav-center a {
+        
+        text-decoration: none !important;
+        font-size: 18px;
+        height: 0px;
+        padding: 15px 20px;
+        display: flex;
+        align-items: center;
+        color: rgb(56, 55, 55);
+        margin-top: 30px;
+    }
+    .nav-center i {
+        padding: 0 0 0 10px;
+    }
+ 
+  
+.home-about {
+    position: relative;
+    background-color:  rgb(241, 239, 239);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    
+}    
+
+.line11{
+    position: absolute;
+    top: 30px;
+    left: 80px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(181, 134, 190);
+}
+.line22{
+    position: absolute;
+    top: 29px;
+    left: 150px;
+    font-size: 23px;
+    color: rgb(172, 172, 172);
+}
+.line22e{
+    position: absolute;
+    top: 29px;
+    left: 230px;
+    font-size: 23px;
+    color: rgb(172, 172, 172);
+}
+.line33{
+    font-size: 18px;
+    font-weight: bolder;
+    color: gray;    position: absolute;
+    top: 30px;
+    left: 170px;
+}
+.line33e{
+    font-size: 18px;
+    font-weight: bolder;
+    color: gray;
+    position: absolute;
+    top: 30px;
+    left: 250px;
+}
+.thank {
+    position: relative;
+    width: 100%;
+    height: 700px;
+}
+.thank img {
+    position: absolute;
+    left: 50%;
+    top: 100px;
+}
+.thank .p1 {
+    position: absolute;
+    left: 820px;
+font-size: 80px;
+top: 230px;
+}
+.thank .p2 {
+    position: absolute;
+    left: 750px;
+font-size: 30px;
+top: 340px;
+color: rgb(179, 179, 179);
+}
+.thank .order {
+    width:330px;
+    position: absolute;
+    left: 840px;
+    top: 450px;
+    font-size: 16px;
+    padding: 20px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 3px; 
+    border-radius: 8px;
+    border: none;
+    height: 64px;
+    
+    }
+    .copon .order:hover  {
+        transform: translate(0px, -6px );
+        transition: all 0.6s ease;
+    
+        box-shadow: 0 0 20px rgba(0,0,0,0.7);
+    }
+    footer {width: 900;
+        height: 630px;
+        position: relative;
+    }
+    .fo-title {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 200px 30px 110px;
+    }
+    .promo {
+    position: absolute;
+    left:1050px;
+    }
+    .info {
+    position: absolute;
+    left:1430px;
+    }
+    .fo-ul {
+    display: flex;
+    position: absolute;
+    color: gray;
+    font-size: 20px;
+    left: 110px;
+    }
+    .fo-ul li {
+    list-style-type: none !important;
+    padding: 0 0px 30px;
+    }
+    .fo-ul ul li a {
+    text-decoration: none;
+    color: gray;
+    }
+    .fo-ul2 {
+    display: flex;
+    position: absolute;
+    color: gray;
+    font-size: 20px;
+    left: 110px;
+    }
+    .fo-ul2 ul li a {
+    text-decoration: none;
+    color: gray;
+    }
+    .fo-ul2 li {
+    list-style-type: none !important;
+    padding: 0 300px 30px;
+    }
+    .fo-ul3 {
+    list-style-type: none !important;
+    display: flex;
+    position: absolute;
+    color: gray;
+    font-size: 20px;
+    left: 110px;
+    }
+    .fo-ul3 ul li {
+    list-style-type: none !important;
+    padding: 0 650px 30px;
+    }
+    .fo-ul3 ul li a {
+    text-decoration: none;
+    color: gray;
+    }
+    .promoimg {
+    width: 300px;
+    position: absolute;
+    left: 1050px;
+    }
+    .find .p1 {
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 220px;
+    color: blueviolet;
+    left: 1050px;
+    }
+    .find .p2 {
+    font-size: 20px;
+    position: absolute;
+    top: 250px;
+    color: gray;
+    left: 1050px;
+    }
+    
+    .location{
+    position: absolute;
+    color: blueviolet;
+    left: 1423px;
+    font-size:22px ;
+    top: 65px;
+    
+    }
+    .location2{
+    position: absolute;
+    color: blueviolet;
+    left: 1430px;
+    font-size:22px ;
+    top: 145px;
+    }
+    .location3{
+    position: absolute;
+    color: blueviolet;
+    left: 1430px;
+    font-size:22px ;
+    top: 200px;
+    }
+    .icon .p1 {
+    width: 250px;
+    position: absolute;
+    left: 1460px;
+    top: 63px;
+    font-weight: bold;
+    color: gray;
+    font-size: 18px;
+    }
+    .icon .p2 {
+    font-size: 18px;
+    width: 250px;
+    position: absolute;
+    left: 1460px;
+    top: 150px;
+    font-weight: bold;
+    color: gray;
+    }
+    .icon .p3 {
+    font-size: 18px;
+    width: 250px;
+    position: absolute;
+    left: 1460px;
+    top: 205px;
+    font-weight: bold;
+    color: gray;
+    }
+    .icon .p4 {
+    font-size: 30px;
+    width: 250px;
+    position: absolute;
+    left: 1420px;
+    top: 305px;
+    }
+    .sub input {
+    width: 400px;
+    position: absolute;
+    height: 10px;
+    left: 1420px;
+    top: 355px;
+    padding: 30px;
+    font-size: 20px;
+    
+    }
+    
+    .sub button {
+    width:130px;
+    position: absolute;
+    top: 358px;
+    left: 1687px;
+    font-size: 16px;
+    padding: 20px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 3px; 
+    
+    height: 58px;
+    
+    }
+    .sub button:hover  {
+        transform: translate(0px, -6px );
+        transition: all 0.6s ease;
+    
+        box-shadow: 0 0 20px rgba(0,0,0,0.7);
+    }
+    .end {
+        position: absolute;
+        top:600px ;
+        left: 600px;
+        font-size: 20px;
+        color: gray;
+    }
+    .end span{
+        color: blueviolet;
+    }
+    
